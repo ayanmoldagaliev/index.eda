@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Доставка еды</title>
   </head>
+
   <body>
     <header class="header container">
       <a href="/" class="logo">
@@ -64,45 +65,304 @@
         </a>
       </div>
     </header>
-    <main class="container">
-      <div class="slider">
-        <div class="slider-card slider-card-1">
-          <h2 class="slider-title">Неделя летних овощей</h2>
-          <p class="slider-description">
-            Специальная овощная корзина. Новые продукты, специальные цены,
-            скидки!
-          </p>
-          <a href="#" class="button button-primary">Заказать со скидкой</a>
+    <main class="main">
+      <section class="slider">
+        <div class="container">
+          <div class="slider-card slider-card-1">
+            <h2 class="slider-title">Неделя летних овощей</h2>
+            <p class="slider-description">
+              Специальная овощная корзина. Новые продукты, специальные цены,
+              скидки!
+            </p>
+            <a href="#" class="button button-primary">Заказать со скидкой</a>
+          </div>
         </div>
+      </section>
+      <div class="container">
+        <section class="small-cards section">
+          <div class="small-card small-card-1">
+            <div class="small-card-header">
+              <h3 class="small-card-title">Сладкая корзина</h3>
+              <span class="small-card-subtitle"
+                >Произвольный выбор десертов по Вашему желанию.
+              </span>
+            </div>
+            <div class="small-card-footer">
+              <span class="small-card-price"> От 1 300 ₽ </span>
+              <span class="small-card-delivery"
+                >стоимость доставки до 200 ₽</span
+              >
+              <a href="#" class="button small-card-button">Собрать корзину</a>
+            </div>
+          </div>
+          <div class="small-card small-card-2">
+            <div class="small-card-header">
+              <h3 class="small-card-title">Минимум усилий</h3>
+              <span class="small-card-subtitle"
+                >Произвольный выбор десертов по Вашему желанию.
+              </span>
+            </div>
+            <div class="small-card-footer">
+              <span class="small-card-price"> От 700 ₽ </span>
+              <span class="small-card-delivery"
+                >стоимость доставки до 200 ₽</span
+              >
+              <a href="#" class="button small-card-button">Собрать корзину</a>
+            </div>
+          </div>
+        </section>
       </div>
-      <div class="small-cards">
-        <div class="small-card small-card-1">
-          <div class="small-card-header">
-            <h3 class="small-card-title">Сладкая корзина</h3>
-            <span class="small-card-subtitle"
-              >Произвольный выбор десертов по Вашему желанию.
-            </span>
-          </div>
-          <div class="small-card-footer">
-            <span class="small-card-price"> От 1 300 ₽ </span>
-            <span class="small-card-delivery">стоимость доставки до 200 ₽</span>
-            <a href="#" class="button small-card-button">Собрать корзину</a>
+      <section class="delivery-week section">
+        <div class="container">
+          <h2 class="section-title">Доставка готовой еды на неделю</h2>
+          <div class="delivery-cards">
+            <div class="delivery-card">
+              <img
+                src="img/crads/card-1.png"
+                class="delivery-image"
+                alt="ЗОЖ"
+              />
+              <span class="delivery-tag tag-1">ЗОЖ</span>
+            </div>
+            <div class="delivery-card">
+              <img
+                src="img/crads/card-2.png"
+                class="delivery-image"
+                alt="ЗОЖ"
+              />
+              <span class="delivery-tag tag-2">Овощное</span>
+            </div>
+            <div class="delivery-card">
+              <img
+                src="img/crads/card-3.png"
+                class="delivery-image"
+                alt="ЗОЖ"
+              />
+              <span class="delivery-tag tag-3">Мясное</span>
+            </div>
+            <div class="delivery-card">
+              <img
+                src="img/crads/card-4.png"
+                class="delivery-image"
+                alt="ЗОЖ"
+              />
+              <span class="delivery-tag tag-4">Птица</span>
+            </div>
+            <div class="delivery-card">
+              <img
+                src="img/crads/card-5.png"
+                class="delivery-image"
+                alt="ЗОЖ"
+              />
+              <span class="delivery-tag tag-5">Рыбное</span>
+            </div>
+            <div class="delivery-card">
+              <img
+                src="img/crads/card-6.png"
+                class="delivery-image"
+                alt="ЗОЖ"
+              />
+              <span class="delivery-tag tag-6">Детское</span>
+            </div>
+            <div class="delivery-card">
+              <img
+                src="img/crads/card-7.png"
+                class="delivery-image"
+                alt="ЗОЖ"
+              />
+              <span class="delivery-tag tag-7">Родителям</span>
+            </div>
+            <div class="delivery-card">
+              <img
+                src="img/crads/card-8.png"
+                class="delivery-image"
+                alt="ЗОЖ"
+              />
+              <span class="delivery-tag tag-8">Праздничное</span>
+            </div>
           </div>
         </div>
-        <div class="small-card small-card-2">
-          <div class="small-card-header">
-            <h3 class="small-card-title">Минимум усилий</h3>
-            <span class="small-card-subtitle"
-              >Произвольный выбор десертов по Вашему желанию.
-            </span>
+      </section>
+      <section class="section section-gray categories">
+        <div class="container">
+          <h2 class="section-title">Категории блюд</h2>
+          <ul class="categories-tabs">
+            <li class="categories-tab">
+              <a href="" class="categories-link chosen">Популярные блюда</a>
+            </li>
+            <li class="categories-tab">
+              <a href="" class="categories-link">Овощное</a>
+            </li>
+            <li class="categories-tab">
+              <a href="" class="categories-link">Мясное</a>
+            </li>
+          </ul>
+          <div class="categories-cards">
+            <div class="categories-card">
+              <img src="img/categories.png" alt="" class="categories-image" />
+              <div class="categories-text">
+                <h3 class="categories-title">
+                  Куриные крылья под соусом Терияки
+                </h3>
+                <p class="catogories-description">
+                  Соус Терияки придумали повора из Японии. По традиции его
+                  используют в качестве маринада для...
+                </p>
+                <div class="categories-buy">
+                  <div class="categories-cost">
+                    <span class="categories-price">260 ₽</span>
+                    <span class="categories-weight">500 гр</span>
+                  </div>
+                  <a href="" class="categories-button">В корзину</a>
+                </div>
+              </div>
+            </div>
+            <div class="categories-card">
+              <img src="img/categories.png" alt="" class="categories-image" />
+              <div class="categories-text">
+                <h3 class="categories-title">
+                  Куриные крылья под соусом Терияки
+                </h3>
+                <p class="catogories-description">
+                  Соус Терияки придумали повора из Японии. По традиции его
+                  используют в качестве маринада для...
+                </p>
+                <div class="categories-buy">
+                  <div class="categories-cost">
+                    <span class="categories-price">260 ₽</span>
+                    <span class="categories-weight">500 гр</span>
+                  </div>
+                  <a href="" class="categories-button">В корзину</a>
+                </div>
+              </div>
+            </div>
+            <div class="categories-card">
+              <img src="img/categories.png" alt="" class="categories-image" />
+              <div class="categories-text">
+                <h3 class="categories-title">
+                  Куриные крылья под соусом Терияки
+                </h3>
+                <p class="catogories-description">
+                  Соус Терияки придумали повора из Японии. По традиции его
+                  используют в качестве маринада для...
+                </p>
+                <div class="categories-buy">
+                  <div class="categories-cost">
+                    <span class="categories-price">260 ₽</span>
+                    <span class="categories-weight">500 гр</span>
+                  </div>
+                  <a href="" class="categories-button">В корзину</a>
+                </div>
+              </div>
+            </div>
+            <div class="categories-card">
+              <img src="img/categories.png" alt="" class="categories-image" />
+              <div class="categories-text">
+                <h3 class="categories-title">
+                  Куриные крылья под соусом Терияки
+                </h3>
+                <p class="catogories-description">
+                  Соус Терияки придумали повора из Японии. По традиции его
+                  используют в качестве маринада для...
+                </p>
+                <div class="categories-buy">
+                  <div class="categories-cost">
+                    <span class="categories-price">260 ₽</span>
+                    <span class="categories-weight">500 гр</span>
+                  </div>
+                  <a href="" class="categories-button">В корзину</a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="small-card-footer">
-            <span class="small-card-price"> От 700 ₽ </span>
-            <span class="small-card-delivery">стоимость доставки до 200 ₽</span>
-            <a href="#" class="button small-card-button">Собрать корзину</a>
+          <a href="#" class="button categories-button categories-button-big"
+            >Больше блюд</a
+          >
+        </div>
+      </section>
+      <section class="section features">
+        <div class="container">
+          <h2 class="section-title">Наши преимущества</h2>
+          <div class="features-cards">
+            <div class="features-card">
+              <img
+                src="img/features/feature-1.svg"
+                alt="путь"
+                class="features-image"
+              />
+              <h3 class="features-title">Какой путь проходит ваша еда</h3>
+              <p class="features-description">
+                Вы делаете заказ на коробку с недельным запасом полуфабрикатов и
+                готовых блюд для всей семьи
+              </p>
+            </div>
+            <div class="features-card">
+              <img
+                src="img/features/feature-2.svg"
+                alt="производство"
+                class="features-image"
+              />
+              <h3 class="features-title">Как происходит производство</h3>
+              <p class="features-description">
+                За день до доставки мы сами готовим блюда из натуральных
+                продуктов без консервантов, красителей и гмо
+              </p>
+            </div>
+            <div class="features-card">
+              <img
+                src="img/features/feature-3.svg"
+                alt="стандарты"
+                class="features-image"
+              />
+              <h3 class="features-title">Высокие стандарты качества</h3>
+              <p class="features-description">
+                Наши повара с многолетним опытом с любовью готовят каждую порцию
+                блюда
+              </p>
+            </div>
+            <div class="features-card">
+              <img
+                src="img/features/feature-4.svg"
+                alt="доставка"
+                class="features-image"
+              />
+              <h3 class="features-title">Быстрая и качественная доставка</h3>
+              <p class="features-description">
+                Сами доставим всё прямов в вашу морозилку, сохранив
+                температурный режим и качество наших блюд
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
+    <footer class="footer section-gray">
+      <div class="container">
+        <div class="footer-wrap">
+          <a href="#" class="logo">
+            <img width="128" src="img/logo.png" alt="logo" class="logo-image" />
+          </a>
+          <ul class="footer-menu">
+            <li class="footer-item">
+              <a href="" class="footer-link">Доставка и оплата</a>
+            </li>
+            <li class="footer-item">
+              <a href="" class="footer-link">Напишите нам</a>
+            </li>
+          </ul>
+          <div class="social-links">
+            <a href="" class="social-link">
+              <img src="img/social/telegram.svg" alt="telegram" />
+            </a>
+            <a href="" class="social-link">
+              <img src="img/social/vk.svg" alt="vk" />
+            </a>
+            <a href="" class="social-link">
+              <img src="img/social/instagram.svg" alt="instagram" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
